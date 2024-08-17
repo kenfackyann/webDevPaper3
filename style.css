@@ -48,3 +48,36 @@ border-radius: 10px;
     text-align: center;
 
 }
+.navbar {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    background-color: silver;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: none;
+}
+.navbar ul li:hover {
+    cursor: pointer;
+    padding: 4px;
+}
+.maincontent { 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    flex-direction: column;
+}
+.content {
+    justify-content: center;
+    align-content: center;
+}
+.span {
+    justify-content: center;
+    align-content: center;
+    color: red;
+}
