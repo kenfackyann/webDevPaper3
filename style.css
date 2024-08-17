@@ -19,3 +19,32 @@ border-radius: 10px;
     flex-direction: row;
     gap: 10px;
 }
+
+.logo{
+    justify-content: center;
+    display: flex;
+  
+    width:40px;
+    height:82 px;
+}
+.mysection{
+ justify-content: center;
+ background-color: rgb(227, 224, 219);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 20px;
+}
+.title{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    
+}
+.text{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+
+}
